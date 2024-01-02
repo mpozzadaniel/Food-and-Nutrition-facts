@@ -4,16 +4,11 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
-        <div class="container">
-            <div class="row" style="border: 5px  solid red; background-color: chartreuse; text-decoration-color: darkblue;">
-                <a href="About.html">About</a>
-                <a href="Add.html">Add</a>
-                <a href="Contact.html">Contact</a>
-                <a href="Display.html">Display</a>
-                <a href="Index.html">Index</a>
-
+        <div class="container-fluid">
+            <div class="row" style="border:6px solid indianred; background-color: #4CAF50;">
+                <?php include("nav2.php"); ?>
             </div>
-            <div class="row" style="border:5px solid orange; background-color: fuchsia; text-decoration-color: mediumseagreen; ">
+            <div class="row" style="border:5px solid orange; background-color: #bd809f;">
                 <div class="col-lg-6" style="border:5px solid red;">
                     <form>
                     <h3>Contact us Form</h3>
@@ -44,7 +39,7 @@
                             
 
                         </select>
-                        <button type="submit" class="btn-danger">submit</button>
+                        
                          
 
                         <button type="submit" class="btn-primary">submit</button>
@@ -63,17 +58,23 @@
                         <p>Tiktok: Chumex Klein</p>
 
                     </address>
-                      
+                    <ul>
+                        <li><a href="https://twitter.com/chumexklein">Twitter</a></li>
+                        <li><a href="https://facebook.com/mpozzadaniel">Facebook</a></li>
+                        <li><a href="https://tiktok.com/Chumexklein">Tiktok</a></li>
+                        <li><a href="https:///mpozzadaniel@gmail.com">Email</a></li>
+                        <!-- Add other social media links as needed -->
+                    </ul>  
+                </div>
 
-
+                <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: darkgreen;">
+                    <footer class="by-dark text-light text-center py-3">
+                        <p>&copy:2023 CHUMEX THE KLEIN</p>
+                    </footer>
+            
                 </div>
             </div>
-
-            <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: darkgreen;">
-                <footer class="by-dark text-light text-center py-3">
-                    <p>&copy:2023 CHUMEX THE KLEIN</p>
-                </footer>
-            </div>
-        </div>        
+        </div> 
+        <script src="bootstrap.min.js"></script>       
     </body>
-</html>
+</html> 
