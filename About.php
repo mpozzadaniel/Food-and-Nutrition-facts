@@ -1,6 +1,6 @@
 <html>
     <head>
-      <title>Food and Nutrition</title>
+      <title>Content</title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <style>
         p {
@@ -9,7 +9,7 @@
         }
       </style>
       <style>
-       img {width: 325px; border-radius: 50px; float:"right"; object-fit: "cover";
+       #img {width: 325px; border-radius: 50px; float:"right"; object-fit: "cover";
 
         }
         p1{font-family: verdana;font-size:20px; background-color: brown;}
@@ -17,7 +17,7 @@
     </head>
     <body>
       <div class="container-fluid">
-       <div class="row"style="border:6px solid indianred; background-color: #4CAF50;">
+       <div class="row"style="border:6px solid #7aaf4c; background-color: #4CAF50;">
         <?php include("nav2.php"); ?>
         </div>
         <div class="row" style="border: 6px solid green; background-color:ceece7!important;">
@@ -44,7 +44,7 @@
 
               <p>They are rich in vitamins, minerals, fiber, antioxidants and an endless variety of trace nutrients that science has just begun to uncover.</p>
               <div class="card-img-fluid" style="width: fit-content;">
-                <img src="bro.jpg" class="container-fluid" alt="..." height="325px" width="325px">
+                <img src="bro.jpg" class="container-fluid" alt="..." height="325px" width="325px"id="img" >
 
               </div>
              

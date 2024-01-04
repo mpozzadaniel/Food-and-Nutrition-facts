@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row" style="border:6px solid indianred; background-color: #4CAF50;">
+            <div class="row" style="border:6px solid #7aaf4c; background-color: #4CAF50;">
                 <?php 
                     include ("Nav2.php")
                 ?>
