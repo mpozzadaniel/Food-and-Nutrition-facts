@@ -132,7 +132,7 @@
       </a>
     </div>
     </div>
-        <h2><marquee>Feeding is an essential part of your health</marquee></h2>
+        <h2><marquee>Feeding is an essential part of your health.Remember strong body is made up of good diet. When you eat a balanced diet in every meal you take, your your body will grow strong, energetic, and your white blood cells will not be defited by disease causing germs. Make sure before eating you first wash your hands with soap to kill the Germs  </marquee></h2>
         <?php
           $d = date('D');
           if ($d == "Sun" || $d == "Sat") {
@@ -142,6 +142,7 @@
           } else {
               echo "<h2><marquee>Have a great day with wholesome and delicious food</marquee></h2>";
           }
+          
         
         ?>
       </div>

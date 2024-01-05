@@ -94,7 +94,7 @@
                             <a class="nav-link" href="tin.php">B.M Index</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Add.php">Add-Food item</a>
+                            <a class="nav-link" href="Add.php">Add-Food-item</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Contact.php">Services</a>
