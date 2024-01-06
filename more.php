@@ -36,7 +36,7 @@
                     </ul>
                </div>
                <div class="col-lg-6">
-                    <img src="dc.jpg" alt="">
+                    <img src="chik.jpg" alt="">
                </div>
             </div> 
             <div class="row" style="background-color: #E6E6F5; border: 6px solid #bc8759;">
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <img src="rice.jpg" alt="">
+                    <img src="ris.jpg" alt="">
                 </div>
             </div>       
             <hr>
@@ -81,7 +81,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <img src="pow.jpg" alt="">
+                    <img src="redea.jpg" alt="">
                 </div> 
             </div>      
                    
@@ -113,7 +113,7 @@
                     </ul>
                 </div>
                <div class="col-lg-6">
-                    <img src="qw.jpg" alt="">
+                    <img src="nka.jpg" alt="">
                </div> 
             </div>            
                    

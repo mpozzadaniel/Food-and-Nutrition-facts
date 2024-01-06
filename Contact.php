@@ -8,31 +8,31 @@
             <div class="row" style="border:6px solid #7aaf4c; background-color: #4CAF50;">
                 <?php include("nav2.php"); ?>
             </div>
-            <div class="row" style="border:5px solid orange; background-color: #bd809f;">
-                <div class="col-lg-6" style="border:5px solid red;">
-                    <form>
-                    <h3>Contact us Form</h3>
+            <div class="row" style="border:5px solid orange; background-color: #B0E0B2;">
+                <div class="col-lg-6" style="border:5px solid ;">
+                    <form action="process_contact.php" method="POST">
+                        <h3>Contact us Form</h3>
                         <div class="form-group">
                             <label for="exampleinputfastname">Firstname</label>
-                            <input type="text" class="form-control" name="exampleinputfirstname" placeholder="Firs tName">
+                            <input type="text" class="form-control" name="Firstname" placeholder="Surname" autocomlete="off">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleinputSecondName">Second Name</label>
-                            <input type="text" class="form-control" name="SecondName" placeholder="Second name">
+                            <input type="text" class="form-control" name="Secondname" placeholder=" Givenname" autocomlete="off">
                         </div>
 
                         <div class="form-group">
                             <label for="telphonenumber">Tel phone Number</label>
-                            <input type="tel" class="form-control" name="telphoneNumber" placeholder="Telphone number">
+                            <input type="tel" class="form-control" name="TelphoneNumber" placeholder="Telphone number" autocomlete="off">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleinputEmail">Email</label>
-                            <input type="email" class="form-control" name="email" aria-describedby="Emailhelper" placeholder="Enter Email">
+                            <input type="email" class="form-control" name="Email" aria-describedby="Emailhelper" placeholder="Enter Email" autocomlete="off">
                         </div>
                         <label for="gender">gender</label>
-                        <select class="form-control" name="gender">
+                        <select class="form-control" name="Gender" autocomlete="off">
 
                             <option value="female">female</option>
                             <option value="male">male</option>
@@ -47,7 +47,7 @@
                     </form>
                 </div>
 
-                <div class="col-lg-6" style="border:5px solid red;">
+                <div class="col-lg-6" style="border:5px solid ;">
                     <h3>Contact us details</h3>
                       
                     <address>
@@ -67,11 +67,13 @@
                     </ul>  
                 </div>
 
-                <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: darkgreen;">
+                
+            </div>
+            <div class="row" style="border:2px solid #bd809f ; background-color: brown;">
+                <div>
                     <footer class="by-dark text-light text-center py-3">
                         <p>&copy:2023 CHUMEX THE KLEIN</p>
                     </footer>
-            
                 </div>
             </div>
         </div> 

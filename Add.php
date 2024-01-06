@@ -47,7 +47,7 @@
             <input type="text" id="Descreption" name="FoodDescription" class="form-control" required>
           </div>
 
-          <input type="submit" value="Add Food Item" class="btn btn-primary">
+         <center><input type="submit" value="Add Food Item" class="btn btn-success"></center> 
         </form>
 
        
