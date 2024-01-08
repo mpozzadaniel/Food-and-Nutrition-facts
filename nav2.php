@@ -23,7 +23,7 @@
         .navbar {
             background-color: #4CAF50;
             color: white;
-            border-radius: 10;
+            border-radius: 30px;
         
         }
 
@@ -39,7 +39,7 @@
 
         .navbar-nav .nav-link {
             color: white;
-            margin-right: 10px;
+            margin-left: 100spx;
             font-weight: bold;
         }
 
@@ -101,6 +101,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Oring.php">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Oring.php">Data</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">

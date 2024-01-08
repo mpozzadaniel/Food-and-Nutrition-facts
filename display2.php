@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food and Nutrition</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <style>
-        body {
-            background-color: #f8f9fa;
-            color: #212529;
-        }
+       
 
-        .container-fluid {
-            padding: 20px;
-        }
-
+      
         .card {
             background-color: #8A307F;
             color: #fff;
@@ -26,6 +21,7 @@
             background-color: #6C217E;
             padding: 10px;
             border-radius: 5px;
+            color:black;
         }
 
         .footer {
@@ -33,51 +29,12 @@
             background-color: brown;
             color: blueviolet;
             text-align: center;
-            padding: 10px;
         }
 
-        .marquee-text {
-            white-space: nowrap;
-            overflow: hidden;
-            animation: marquee 20s linear infinite;
-        }
+       
 
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        img {
-            object-fit: cover;
-            border-radius: 50px;
-            height: 100px;
-        }
-
-        table {
-            width: 100%;
-           
-            margin-bottom: 20px;
-        }
-
-        th, td {
-            padding: 10px;
-            border: 14px solid grey;
-            text-align: left;
-        }
-
-        th {
-            background-color:  #9EAF50;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        h2{ background-color: #c8d29d;}
+       
+       
     </style>
 </head>
 
@@ -88,85 +45,93 @@
             <?php include("nav2.php"); ?>
         </div>
 
-        <div class="row" style="border:4px solid grey background-color:#C9D496">
-            <h2>Food Nutrients, their examples And the percentage required in a day</h2>
-            
-            <table style="background-color:#C9D496; border:4px solid  #9EAF50">
-                            <tr>
-                                <th>Food Nutrients</th>
-                                <th>Their sources</th>
-                                <th>Percentage</th>
-                            </tr>
-                            <tr >
-                                <td>Proteins</td>
+        <div class="row mt-3" style="border:4px solid grey background-color:#C9D496" >
+        <div class="card"  style="background-color:#bcd1e4 ">
+            <div class="card-header" style="background-color: #7aaf4c;">
+                <h2 class="display-7 text-center" >Food Nutrients, their examples And the percentage required in a day</h2>
+            </div>
+            <div class="card-body"  style="background-color:#bcd1e4 ">
+                <table class="table table-bordered ">
+                                <tr  style="background-color:#6C217E;" class=" text-center">
+                                  <th> <h3> Food Nutrients</h3></th>
+                                   <th> <h3>Their sources</h3></th>
+                                    <th><h3>Percentage</h3></th>
+                                </tr>
+                                <tr style="background-color:#5B84B1FF" >
+                                    <td>Proteins</td>
+                                    <td>
+                                        <ol>
+                                            <li>Eggs </li>
+                                            <li>Milk </li>
+                                            <li>Beans</li>
+                                            <li>Meat </li>
+                                            <li>G.nuts</li>
+                                        </ol>
+                                    </td>
+                                    <td>60%</td>
+                                </tr>
+                            <tr style="background-color:#5B84B1FF">
+                                <td>Fats</td>
                                 <td>
                                     <ol>
-                                        <li>Eggs </li>
-                                        <li>Milk </li>
-                                        <li>Beans</li>
-                                        <li>Meat </li>
-                                        <li>G.nuts</li>
+                                        <li>Butter</li>
+                                        <li>Milk</li>
+                                        <li>Yorgurt</li>
+                                        <li>Meat</li>
+                                        <li>Cooking oil</li>
+                                    </ol>    
+                                </td>
+                                <td>20%</td>
+                            </tr>
+                            <tr style="background-color:#5B84B1FF">
+                                <td>Carbohydrates</td>
+                                <td>
+                                    <ol>
+                                        <li>Wheat</li>
+                                        <li>Millet</li>
+                                        <li>Sorghum</li>
+                                        <li>Honey</li>
+                                        <li>Rice</li>
                                     </ol>
                                 </td>
-                                <td>60%</td>
-                            </tr>
-                        <tr>
-                            <td>Fats</td>
-                            <td>
+                            <td>50%</td>
+                        </tr>
+                        <tr style="background-color:#5B84B1FF" >
+                            <td>Vitamins</td>
+                            <td> 
                                 <ol>
-                                    <li>Butter</li>
-                                    <li>Milk</li>
-                                    <li>Yorgurt</li>
-                                    <li>Meat</li>
-                                    <li>Cooking oil</li>
+                                    <li>Vegetables</li>
+                                    <li>Fish</li>
+                                    <li>Fruits</li>
+                                    <li>Morning sunshine</li>
                                 </ol>    
                             </td>
-                            <td>20%</td>
+                            <td>10%</td>
                         </tr>
-                        <tr>
-                            <td>Carbohydrates</td>
-                            <td>
+                        <tr style="background-color:#5B84B1FF">
+                            <td>Water</td>
+                            <td>Water</td>
+                            <td>40%</td>
+                        </tr>
+                        <tr style="background-color:#5B84B1FF">
+                                <td>Minerals</td>
+                            <td> 
                                 <ol>
-                                    <li>Wheat</li>
-                                    <li>Millet</li>
-                                    <li>Sorghum</li>
-                                    <li>Honey</li>
-                                    <li>Rice</li>
+                                    <li>Table salt</li>
+                                    <li>Vegetables</li>
+                                    <li>Sea salt</li>
+                                    <li>All foods</li>
                                 </ol>
                             </td>
-                        <td>50%</td>
-                    </tr>
-                    <tr >
-                        <td>Vitamins</td>
-                        <td> 
-                            <ol>
-                                <li>Vegetables</li>
-                                <li>Fish</li>
-                                <li>Fruits</li>
-                                <li>Morning sunshine</li>
-                            </ol>    
-                        </td>
-                        <td>10%</td>
-                    </tr>
-                    <tr>
-                        <td>Water</td>
-                        <td>Water</td>
-                        <td>40%</td>
-                    </tr>
-                    <tr>
-                            <td>Minerals</td>
-                        <td> 
-                            <ol>
-                                <li>Table salt</li>
-                                <li>Vegetables</li>
-                                 <li>Sea salt</li>
-                                <li>All foods</li>
-                            </ol>
-                        </td>
-                    <td>15%</td>
-                            
-                </tr>       
-            </table><hr>
+                        <td>15%</td>
+                                
+                    </tr>       
+                </table><hr>
+            </div>
+        </div>
+            
+            
+            
         </div>    
         <div class="row" style="background-color:#bcd1e4 " >
             <div class="col-lg-3">
@@ -180,9 +145,9 @@
                         <li>broccoli</li>
                         <li>dark leafy greens</li>
                         <li>sardines</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Amaranth</li>
+                        <li>Milk</li>
+                        <li>Molasses</li>
                   </ol>  
                 </div>
             </div>
@@ -199,7 +164,7 @@
                         <li>fish</li>
                         <li>spinach </li>
                         <li> dark greens</li>
-                        <li></li>
+                        <li>Potatoes</li>
                                         
                     </ol>
                 </div>
@@ -233,10 +198,10 @@
                             <li> black beans</li>
                             <li>peas</li>
                             <li>almonds</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Ovacado</li>
+                            <li>Cashews</li>
+                            <li>Oats</li>
+                            <li>Dark Chocolate</li>
                         </ol>
                     </div>
                 </div>
@@ -254,7 +219,7 @@
                             <li>carrots</li>
                             <li>sweet potatoes</li>
                             <li>cantaloupe</li>
-                            <li></li>
+                            <li>Beaf</li>
                         </ol>
                     </div>
                 </div>

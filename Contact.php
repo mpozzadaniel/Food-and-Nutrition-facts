@@ -5,11 +5,11 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row" style="border:6px solid #7aaf4c; background-color: #4CAF50;">
+            <div class="row" style="border:6px solid #7aaf4c; background-color: #4CAF50; border-radius:20px;">
                 <?php include("nav2.php"); ?>
             </div>
-            <div class="row" style="border:5px solid orange; background-color: #B0E0B2;">
-                <div class="col-lg-6" style="border:5px solid ;">
+            <div class="row" style="border:5px solid orange; background-color: #B0E0B2; border-radius:20px;">
+                <div class="col-lg-6" style=" border-radius:20px;">
                     <form action="process_contact.php" method="POST">
                         <h3>Contact us Form</h3>
                         <div class="form-group">
@@ -47,7 +47,7 @@
                     </form>
                 </div>
 
-                <div class="col-lg-6" style="border:5px solid ;">
+                <div class="col-lg-6" style="; border-radius:20px;">
                     <h3>Contact us details</h3>
                       
                     <address>
@@ -69,7 +69,7 @@
 
                 
             </div>
-            <div class="row" style="border:2px solid #bd809f ; background-color: brown;">
+            <div class="row" style="border:2px solid #bd809f ; background-color: brown; border-radius:20px;">
                 <div>
                     <footer class="by-dark text-light text-center py-3">
                         <p>&copy:2023 CHUMEX THE KLEIN</p>
