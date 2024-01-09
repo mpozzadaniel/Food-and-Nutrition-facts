@@ -103,7 +103,7 @@
                             <a class="nav-link" href="Oring.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Oring.php">Data</a>
+                            <a class="nav-link" href="service.php">Data</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">

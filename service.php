@@ -53,16 +53,11 @@ if(!$result){
                                     <td><?php echo $row['Fats'];?> </td>
                                     <td><?php echo $row['Protein'];?> </td>
                                     <td><?php echo $row['FoodDescription'];?> </td>
-                                    <td><a href="update.php?<?php echo $row['ID']; ?>" class="btn btn-success">Edit</a></td>
+                                    <td><a href="update.php?id=<?php echo $row['ID']; ?>" class="btn btn-success">Edit</a></td>
                                     <td><a href="delete.php?<?php echo $row['ID']; ?> "class="btn btn-danger">Delete</a> </td>
-        
-        
                                 </tr>
                                 <?php
-
-
                                      }
-
                                 ?>
                                 
                             </table>
