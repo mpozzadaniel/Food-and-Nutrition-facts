@@ -2,6 +2,9 @@
  require_once("connect.php");
 $query = "select * from fooditem";
 $result = mysqli_query($con, $query);
+if(!$result){
+    die("" .mysqli_error($con));
+}
 
 ?>
 <!DOCTYPE html>
@@ -14,6 +17,11 @@ $result = mysqli_query($con, $query);
 </head>
 <body>
     <div class="container-fluid"> 
+            <div class="row" style="border:6px solid #7aaf4c; background-color: #4CAF50;">
+                <?php 
+                    include("nav2.php")
+                ?>  
+            </div>
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -38,13 +46,16 @@ $result = mysqli_query($con, $query);
                                      {
                                             
                                 ?>
-                                    <tr><?php echo $row['ID']; ?> </tr>
-                                    <tr><?php echo $row['FoodName'];?> </tr>
-                                    <tr><?php echo $row['Calories']; ?> </tr>
-                                    <tr><?php echo $row['Carbohydrates']; ?> </tr>
-                                    <tr><?php echo $row['Fats'];?> </tr>
-                                    <tr><?php echo $row['Protein'];?> </tr>
-                                    <tr><?php echo $row['FoodDescription'];?> </tr>
+                                    <td><?php echo $row['ID']; ?> </td>
+                                    <td><?php echo $row['FoodName'];?> </td>
+                                    <td><?php echo $row['Calories']; ?> </td>
+                                    <td><?php echo $row['Carbohydrates']; ?> </td>
+                                    <td><?php echo $row['Fats'];?> </td>
+                                    <td><?php echo $row['Protein'];?> </td>
+                                    <td><?php echo $row['FoodDescription'];?> </td>
+                                    <td><a href="update.php?<?php echo $row['ID']; ?>" class="btn btn-success">Edit</a></td>
+                                    <td><a href="delete.php?<?php echo $row['ID']; ?> "class="btn btn-danger">Delete</a> </td>
+        
         
                                 </tr>
                                 <?php
@@ -60,7 +71,12 @@ $result = mysqli_query($con, $query);
                 </div>
             </div>
         </div>
+        <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: blueviolet;">
+            <footer class="by-dark text-light text-center py-3">
+                <p>&copy:2023 CHUMEX THE KLEIN</p> 
+            </footer>
+        </div>
     </div>
-    
+    <script src="bootstrap.min.js"></script> 
 </body>
 </html>
