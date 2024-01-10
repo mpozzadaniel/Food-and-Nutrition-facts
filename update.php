@@ -27,16 +27,11 @@ mysqli_stmt_execute($stmt);
 $result = mysqli_stmt_get_result($stmt);
 $data = mysqli_fetch_assoc($result);
 if ($data){?>
-  <form action="">
-          <div class="form-group">
-            <label for="ID">ID:</label>
-            <input type="hidden"  name="ID" class="form-control" required value="<?php echo $data['ID'] ;?>">
-          </div>
-
-  
+  <form action="up-date-proccesser">
+  <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
           <div class="form-group">
             <label for="food_name">Food Name:</label>
-            <input type="hidden" name="FoodName" class="form-control" required value="<?php echo $data['FoodName'] ;?>">
+            <input type="text" name="FoodName" class="form-control" required value="<?php echo $data['FoodName'] ;?>">
           </div>
 
           <div class="form-group">
