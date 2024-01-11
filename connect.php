@@ -5,10 +5,10 @@ $password = "";
 $database = "foodandnutrition";
 $con = mysqli_connect($host, $user, $password, $database);
 if($con){
-    echo"connected successfuly to database";
+   // echo"connected successfuly to database";
 
 }
 else{
-    echo"connection to database failed";
+    //echo"connection to database failed";
 }
 ?>

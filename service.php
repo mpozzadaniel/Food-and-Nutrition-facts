@@ -1,3 +1,12 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
 <?php
  require_once("connect.php");
 $query = "SELECT * FROM fooditem ";
@@ -7,14 +16,6 @@ if(!$result){
 }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
 <body>
     <div class="container-fluid">
         <div class="row" style="border: 6px solid #7aaf4c; background-color: #4CAF50;">
@@ -27,12 +28,12 @@ if(!$result){
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                         <div class="card-header">
                             <?php echo $row['FoodName']; ?>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">ID: <?php echo $row['ID']; ?></p>
+                            <p class="card-text">FoodName: <?php echo $row['FoodName']; ?></p>
                             <p class="card-text">Calories: <?php echo $row['Calories']; ?></p>
                             <p class="card-text">Protein: <?php echo $row['Protein']; ?></p>
                             <p class="card-text">Carbohydrates: <?php echo $row['Carbohydrates']; ?></p>
@@ -42,7 +43,7 @@ if(!$result){
                             <?php echo $row['FoodDescription']; ?>
                         </div>
                         <a href="update.php?id=<?php echo $row['ID']; ?>" class="btn btn-success">Edit</a>
-                        <a href="delete.php?id=<?php echo $row['ID']; ?> "class="btn btn-danger">Delete</a> 
+                       
                     </div>
                 </div>
             <?php
@@ -51,10 +52,8 @@ if(!$result){
         </div>
     </div>
 
-    <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: blueviolet;">
-        <footer class="by-dark text-light text-center py-3">
-            <p>&copy:2023 CHUMEX THE KLEIN</p> 
-        </footer>
+    </div>
+        <?php include("footer.php"); ?>
     </div>
     </div>
     <script src="bootstrap.min.js"></script> 

@@ -121,11 +121,9 @@
             </div>
           </div>
         </div>  
-        <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: blueviolet;">
-        <footer class="by-dark text-light text-center py-3">
-          <p1>&copy:2023 CHUMEX THE KLEIN</p1>
-        </footer>
-      </div>       
+        </div>
+          <?php include("footer.php"); ?>
+        </div>
       <script src="bootstrap.min.js"></script>
     </body>
   </html>

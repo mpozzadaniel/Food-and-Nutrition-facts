@@ -189,10 +189,8 @@
             <h5>These values are approximate and can vary based on specific brands and preparation methods.</h5> 
             <h5>Always check food labels for accurate nutritional information.</h5>
             </center>
-            <div class="row" style="border: 4px sold chocolate; background-color: brown; text-decoration-color: blueviolet;">
-                <footer class="by-dark text-light text-center py-3">
-                    <marquee><p>&copy:2023 CHUMEX THE KLEIN</p></marquee> 
-                </footer>
+            </div>
+                <?php include("footer.php"); ?>
             </div>
            
         </div>

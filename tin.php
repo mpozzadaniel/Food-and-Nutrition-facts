@@ -153,12 +153,8 @@
        
     </div> 
 
-    <div class="row" style="border:8px solid #bd809f ; background-color: brown;">
-        <div>
-          <footer class="by-dark text-light text-center py-3">
-            <p>&copy:2023 CHUMEX THE KLEIN</p>
-          </footer>
-        </div>
+    </div>
+        <?php include("footer.php"); ?>
     </div>
 
     <script src="js/bootstrap.min.js"></script>

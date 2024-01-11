@@ -9,10 +9,10 @@
    $des = $_POST["FoodDescription"];
 
    $query = "INSERT INTO fooditem (FoodName,Calories,Protein,Carbohydrates,Fats,FoodDescription)VALUES(?,?,?,?,?,?)";
-    $statement=mysqli_prepare($con, $query);
+     $statement =mysqli_prepare($con, $query);
 
-    mysqli_stmt_bind_param($statement, "sssiii",$fn, $c, $pr,$carb, $fts, $des);
+    mysqli_stmt_bind_param($statement, "ssssss",$fn, $c, $pr,$carb, $fts, $des);
 
     mysqli_stmt_execute($statement);
-    echo"data submitteted successfully";
+    //echo"data submitteted successfully";
 ?>

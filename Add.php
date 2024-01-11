@@ -25,22 +25,22 @@
 
           <div class="form-group">
             <label for="calories">Calories:</label>
-            <input type="number" id="Calories" name="Calories" class="form-control" required>
+            <input type="text" id="Calories" name="Calories" class="form-control" required>
           </div>
 
           <div class="form-group">
             <label for="Protein">Protein (g):</label>
-            <input type="number" id="Protein" name="Protein" class="form-control" required>
+            <input type="text" id="Protein" name="Protein" class="form-control" required>
           </div>
 
           <div class="form-group">
             <label for="carbs">Carbohydrates (g):</label>
-            <input type="number" id="Carbohydrates" name="Carbohydrates" class="form-control" required>
+            <input type="text" id="Carbohydrates" name="Carbohydrates" class="form-control" required>
           </div>
 
           <div class="form-group">
             <label for="fat">Fats (g):</label>
-            <input type="number" id="Fats" name="Fats" class="form-control" required>
+            <input type="text" id="Fats" name="Fats" class="form-control" required>
           </div>
           <div class="form-group">
             <label for="descreption"></label>Descreption</label>
@@ -53,13 +53,7 @@
        
       </div>
     </div>
-    <div class="row" style="border:8px solid #bd809f ; background-color: brown;">
-        <div>
-          <footer class="by-dark text-light text-center py-3">
-            <p>&copy:2023 CHUMEX THE KLEIN</p>
-          </footer>
-        </div>
-      </div>
+    <?php include("footer.php"); ?>
   </div>
   <script src="js/bootstrap.min.js"></script>
 </body>

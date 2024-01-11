@@ -24,7 +24,7 @@
           <img src="bro.jpg" class="d-block w-50" alt="Image 1" height="350px">
           <div class="carousel-caption d-none d-md-block">
             <h1>LEAFY VEGETABLES</h1>
-            <h3> Support vision and skin health. </h3>
+            <h3> Support vision and skin health.</h3>
           </div>
         </div>
         <div class="carousel-item">
@@ -146,12 +146,8 @@
         
         ?>
       </div>
-      <div class="row" style="border:8px solid #bd809f ; background-color: brown;">
-        <div>
-          <footer class="by-dark text-light text-center py-3">
-            <p>&copy:2023 CHUMEX THE KLEIN</p>
-          </footer>
-        </div>
+      </div>
+        <?php include("footer.php"); ?>
       </div>
     </div>
     <script src="js/bootstrap.min.js"></script>

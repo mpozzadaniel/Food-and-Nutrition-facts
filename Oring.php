@@ -15,7 +15,7 @@
                     include ("Nav2.php")
                 ?>
             </div>
-            <div class="row" style="background-color:#a8ba9a; border: 20px solid #a8ba9a;">
+            <div class="row" style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                 <h2>About Food and Nutrition Project</h2>
                 <p>Welcome to the Food and Nutrition Facts project! Our goal is to provide users with valuable information about the nutritional content of various foods. Whether you are looking for the calorie count, protein content, carbohydrates, or fats, our project aims to be a helpful resource for making informed dietary choices.</p>
 
@@ -47,11 +47,8 @@
                 </ul>
 
             </div>
-            <div class="row" style="border:8px solid #bd809f ; background-color: brown;">
-                <div>
-                <footer class="by-dark text-light text-center py-3">
-                    <p>&copy:2023 CHUMEX THE KLEIN</p>
-                </footer>
+            </div>
+                <?php include("footer.php"); ?>
             </div>
         </div>
         <script src="js/bootstrap.min.js"></script>

@@ -69,12 +69,8 @@
 
                 
             </div>
-            <div class="row" style="border:2px solid #bd809f ; background-color: brown; border-radius:20px;">
-                <div>
-                    <footer class="by-dark text-light text-center py-3">
-                        <p>&copy:2023 CHUMEX THE KLEIN</p>
-                    </footer>
-                </div>
+            </div>
+                <?php include("footer.php"); ?>
             </div>
         </div> 
         <script src="bootstrap.min.js"></script>       

@@ -34,7 +34,7 @@
         }
 
         .navbar-toggler-icon {
-            background-color: white;
+            background-color: red;
         }
 
         .navbar-nav .nav-link {
@@ -97,13 +97,13 @@
                             <a class="nav-link" href="Add.php">Add-Food-item</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.php">Services</a>
+                            <a class="nav-link" href="Contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Oring.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.php">Data</a>
+                            <a class="nav-link" href="service.php">Services</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
