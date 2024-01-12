@@ -16,7 +16,7 @@
         $fn = $_POST["FoodName"];
         $c = $_POST["Calories"];
         $pr = $_POST["Protein"];
-        $carbs= $_POST[" Carbohydrates"];
+        $carbs= $_POST["Carbohydrates"];
         $fats= $_POST["Fats"];
         $des= $_POST["FoodDescription"];
         mysqli_stmt_execute($statement);

@@ -9,10 +9,11 @@
 </head>
 <?php
  require_once("connect.php");
-$query = "SELECT * FROM fooditem ";
+ $limit = 6;
+$query = "SELECT * FROM fooditem LIMIT $limit";
 $result = mysqli_query($con, $query);
 if(!$result){
-    die("" .mysqli_error($con));
+    die("error" .mysqli_error($con));
 }
 
 ?>

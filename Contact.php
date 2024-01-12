@@ -31,6 +31,7 @@
                             <label for="exampleinputEmail">Email</label>
                             <input type="email" class="form-control" name="Email" aria-describedby="Emailhelper" placeholder="Enter Email" autocomlete="off" required>
                         </div>
+                        <div class="form-group">
                         <label for="gender">gender</label>
                         <select class="form-control" name="Gender" autocomlete="off"  required>
 
@@ -39,6 +40,7 @@
                             
 
                         </select> 
+                        </div>
                         <div class="form-group">
                             <label for="Citizen">Citizen</label>
                             <input type="text" class="form-control" name="Citizen" placeholder="Country" autocomlete="off"  required>
