@@ -23,7 +23,7 @@
         .navbar {
             background-color: #4CAF50;
             color: white;
-            border-radius: 30px;
+            border-radius: 50px;
         
         }
 
@@ -106,10 +106,10 @@
                             <a class="nav-link" href="service.php">Services</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
-                    </form>
+                    <div class="logo-container">
+                        <img src="log.jpg" alt="Nutrition-facts" class="img">
+                    </div>
+                    
                 </div>
             </div>
         </nav>

@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <style>
         p {
-          color: #ff8243;
+          color: mediumvioletred;
           size: 30px
         }
       </style>
@@ -21,9 +21,9 @@
         <?php include("nav2.php"); ?>
         </div>
         <div class="row" style="border: 6px solid green; background-color:ceece7!important;">
-          <div class="col-lg-4" style="border: 6px solid goldenrod;">
+          <div class="col-lg-4">
             <div class="card" style="background-color:ceece7!important;">
-              <div class="card-header">
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                 <h3>Benefits of health Eating</h3>
               </div>  
               <p>Healthy eating can help individuals achieve and maintain a healthy body weight, consume important nutrients, and reduce the risk of developing health conditions such as1,2</p>
@@ -36,7 +36,7 @@
                 <li>Iron deficiency</li>   
                 <li>Dental caries (cavities).</li>   
               </ol>
-              <div class="card-header">
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                 <h3>Eating Vegetables Will Improve Your Health</h3>
               </div>  
                
@@ -50,32 +50,41 @@
              
               <p>In observational studies, eating vegetables is associated with improved health and a lower risk of disease</p>
               <p>I recommend that you eat a variety of vegetables each day. They are healthy, fulfilling and add variety to your diet.</p>
-              <h4>Fruits and vegetables</h4>
-              <p>Fruits and vegetables naturally are low in fat.</p>
-              <p>They add nutrients, flavor, and variety to your diet.</p>
-              <p>Look for colorful fruits and vegetables, especially orange and dark green.</p> 
-              <h4>Choose these foods:</h4>
-              <ol>
-                <li>Broccoli, cauliflower, and Brussels sprouts</li>
-                <li>Leafy greens, such as chard, cabbage, romaine, and bok choy</li>
-                <li>Dark, leafy greens, such as spinach and kale</li>
-                <li>Squash, carrots, sweet potatoes, turnips, and pumpkin</li>
-                <li>Snap peas, green beans, bell peppers, and asparagus</li>
-                <li>Apples, plums, mangos, papaya, pineapple, and bananas</li>
-                <li>Blueberries, strawberries, cherries, pomegranates, and grapes</li>
-                <li>Citrus fruits, such as grapefruits and oranges</li>
-                <li>Peaches, pears, and melons</li>
-                <li>Tomatoes and avocados</li>
-              </ol>
+              <div class="card"  style="background-color:ceece7!important;">
+                <div class="card-header" style=" background: linear-gradient(to bottom, #008080, #00CED1);">
+                  <h3>Fruits and vegetables</h3>
+                </div>
+                <div class="card-body">
+                  <p>Fruits and vegetables naturally are low in fat.</p>
+                  <p>They add nutrients, flavor, and variety to your diet.</p>
+                  <p>Look for colorful fruits and vegetables, especially orange and dark green.</p> 
+                  <h4>Choose these foods:</h4>
+                  <ol>
+                    <li>Broccoli, cauliflower, and Brussels sprouts</li>
+                    <li>Leafy greens, such as chard, cabbage, romaine, and bok choy</li>
+                    <li>Dark, leafy greens, such as spinach and kale</li>
+                    <li>Squash, carrots, sweet potatoes, turnips, and pumpkin</li>
+                    <li>Snap peas, green beans, bell peppers, and asparagus</li>
+                    <li>Apples, plums, mangos, papaya, pineapple, and bananas</li>
+                    <li>Blueberries, strawberries, cherries, pomegranates, and grapes</li>
+                    <li>Citrus fruits, such as grapefruits and oranges</li>
+                    <li>Peaches, pears, and melons</li>
+                    <li>Tomatoes and avocados</li>
+                  </ol>
 
-              <h6>Summary Vegetables</h6>
-              <p>are rich in all sorts of nutrients. Eating vegetables each day is associated
-              with improved health and a lower risk of disease.</p> 
+                  <h6>Summary Vegetables</h6>
+                  <p>are rich in all sorts of nutrients. Eating vegetables each day is associated
+                  with improved health and a lower risk of disease.</p> 
+
+                </div>
+              </div>
+              
+             
             </div>
           </div>
-          <div class="col-lg-4" style="border: 6px solid blueviolet; background-color:ceece7!important;">
+          <div class="col-lg-4" style=" background-color:ceece7!important;">
             <div class=card style="background-color:ceece7!important;">
-              <div class="card-header"> 
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);"> 
                <h3>Choose a diet made of nutrient-rich foods.</h3> 
               </div>
               <p>Nutrient-rich (or nutrient-dense) foods are low in sugar, sodium, starches, and bad fats.</p>
@@ -91,10 +100,33 @@
               <p>This type of diet contributes to weight gain</p> 
               <p>It can increase your risk of health issues, such as type 2 diabetes and heart disease.</p>
             </div>
-          </div>
-          <div class="col-lg-4" style="border: 6px solid gray;">
             <div class="card" style="background-color:ceece7!important;">
-              <div class="card-header">
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);">
+                <h4>How Diet is related to physical exercise</h4>
+              </div>
+              <div classs="card-body">
+                <h4>Energy Balance:</h4>
+
+                <h5>Caloric Intake and Expenditure:</h5> 
+                <p>The basic principle of weight management is the balance between calories consumed through diet and calories burned through physical activity.</p> 
+                <p>If you consume more calories than you burn, you may gain weight, and if you burn more calories than you consume, you may lose weight.</p>
+                <h4>Nutrient Intake:</h4>
+
+                <h5>Macronutrients (Proteins, Carbohydrates, Fats):</h5> 
+                <p>The type and amount of macronutrients you consume can affect your energy levels, muscle development, and overall performance during exercise.</p> 
+                <p>Proteins are essential for muscle repair and growth, while carbohydrates provide energy, and fats contribute to overall health</p>
+
+                <h5>Micronutrients (Vitamins and Minerals):</h5> 
+                <p>Adequate intake of vitamins and minerals is crucial for various physiological functions, including energy metabolism, bone health, and immune function.</p> 
+                <p>Exercise can increase the body's demand for certain nutrients.</p>
+
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" style="background-color:ceece7!important;">
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);">
                 <h3> It Is Critical to Avoid a Vitamin D Deficiency</h3>
               </div>
               <h4>Vitamin D is a unique vitamin that actually functions as a hormone in the body.</h4>
@@ -116,10 +148,26 @@
               D is a crucial hormone in the body and many people are deficient in it.
               Reversing a deficiency can have powerful health benefits.</p> 
             </div>
-            <div class=card>
+            <div class="card" style="background-color:ceece7!important;">
+              <div class="card-header"  style=" background: linear-gradient(to bottom, #008080, #00CED1);">
+                <h4>How Diet is related to physical exercise</h4>
+              </div>
+              <div classs="card-body">
+                <h4>Hydration:</h4>
+
+                <p>Staying hydrated is essential for overall health and optimal exercise performance.</p> 
+                <p>Dehydration can negatively impact endurance, strength, and cognitive function during exercise.</p>
+                
+
+                <p>Combining a balanced diet with regular exercise is often recommended for effective weight management.</p>
+                <p>Exercise helps burn calories, while a healthy diet supports weight loss or maintenance.</p>
+               
+              </div>
+
            
             </div>
           </div>
+         <center> <a href="About.php">UP PAGE</a></center>
         </div>  
         </div>
           <?php include("footer.php"); ?>

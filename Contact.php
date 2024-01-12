@@ -14,31 +14,36 @@
                         <h3>Contact us Form</h3>
                         <div class="form-group">
                             <label for="exampleinputfastname">Firstname</label>
-                            <input type="text" class="form-control" name="Firstname" placeholder="Surname" autocomlete="off">
+                            <input type="text" class="form-control" name="Firstname" placeholder="Surname" autocomlete="off"  required>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleinputSecondName">Second Name</label>
-                            <input type="text" class="form-control" name="Secondname" placeholder=" Givenname" autocomlete="off">
+                            <input type="text" class="form-control" name="Secondname" placeholder=" Givenname" autocomlete="off"  required>
                         </div>
 
                         <div class="form-group">
                             <label for="telphonenumber">Tel phone Number</label>
-                            <input type="tel" class="form-control" name="TelphoneNumber" placeholder="Telphone number" autocomlete="off">
+                            <input type="tel" class="form-control" name="TelphoneNumber" placeholder="Telphone number" autocomlete="off" required>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleinputEmail">Email</label>
-                            <input type="email" class="form-control" name="Email" aria-describedby="Emailhelper" placeholder="Enter Email" autocomlete="off">
+                            <input type="email" class="form-control" name="Email" aria-describedby="Emailhelper" placeholder="Enter Email" autocomlete="off" required>
                         </div>
                         <label for="gender">gender</label>
-                        <select class="form-control" name="Gender" autocomlete="off">
+                        <select class="form-control" name="Gender" autocomlete="off"  required>
 
                             <option value="female">female</option>
                             <option value="male">male</option>
                             
 
-                        </select>
+                        </select> 
+                        <div class="form-group">
+                            <label for="Citizen">Citizen</label>
+                            <input type="text" class="form-control" name="Citizen" placeholder="Country" autocomlete="off"  required>
+                        </div>
+
                         
                          
 

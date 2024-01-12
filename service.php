@@ -23,13 +23,15 @@ if(!$result){
             include("nav2.php");
             ?>
         </div>
-        <div class="row">
+        <div class="row" style="background-color:#00ced1;">
             <?php
+           
+           
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
                 <div class="col-md-4">
                     <div class="card" style=" background: linear-gradient(to bottom, #008080, #00CED1);">
-                        <div class="card-header">
+                        <div class="card-header" style="background-color:#add8e6">
                             <?php echo $row['FoodName']; ?>
                         </div>
                         <div class="card-body">
@@ -42,7 +44,7 @@ if(!$result){
                         <div class="card-footer">
                             <?php echo $row['FoodDescription']; ?>
                         </div>
-                        <a href="update.php?id=<?php echo $row['ID']; ?>" class="btn btn-success">Edit</a>
+                        <a href="update.php?id=<?php echo $row['ID']; ?>" class="btn btn-secondary">Edit</a>
                        
                     </div>
                 </div>
