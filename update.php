@@ -37,7 +37,7 @@ require_once ("connect.php" );
     
     <div class="row mt-3" style="background-color: #B0E0B2; border 4px solid  #4CAF50; padding:10px;">
       <div class="col-md-6 offset-md-3 border rounded p-4 bg-light">
-      
+      <i><u><h3>Update form</h3></u></i>
         <form action="proccess-update.php" method="POST" style="background-color: #B0E0B2;">
           <input type="hidden" name="ID" value="<?php echo $data['ID']; ?>">
             <div class="form-group">
