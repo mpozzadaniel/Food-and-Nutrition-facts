@@ -15,4 +15,6 @@
 
     mysqli_stmt_execute($statement);
     //echo"data submitteted successfully";
+    header("Location: service.php");
+    exit();
 ?>
